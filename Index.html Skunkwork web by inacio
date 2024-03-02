@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkunkWorks - Home</title>
+    <style>
+        /* General Styles */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            overflow: hidden; /* Hide horizontal scrollbar */
+            background: #000;
+            color: #fff;
+            cursor: url('cursor.png'), auto; /* Custom cursor image */
+        }
+
+        /* Container Styles */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 50px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        /* Service Styles */
+        .service {
+            background-color: #1e1e1e; /* Dark background */
+            padding: 50px;
+            margin: 20px;
+            border-radius: 20px;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.1); /* White shadow effect */
+            transition: transform 0.3s ease-in-out; /* Smooth transition */
+            overflow: hidden;
+        }
+
+        .service:hover {
+            transform: scale(1.05); /* Scale up slightly on hover */
+        }
+
+        /* Template-specific Colors */
+        .what-we-do { background-color: #5f5f5f; } /* Gray */
+        .educational-services { background-color: #4169e1; } /* Royal Blue */
+        .technical-consulting { background-color: #ff4500; } /* Orange */
+
+        .service h2 {
+            color: #fff;
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .service p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        /* Copyright Styles */
+        .copyright {
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 14px;
+            color: rgba(255, 255, 255, 0.8);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="service what-we-do">
+            <h2>What We Do</h2>
+            <p>SkunkWorks pioneers the fusion of technology and education, empowering educators, students, and organizations to thrive in the digital era. With cutting-edge educational programs and expert technical consulting, we bridge the gap between theory and practice, inspiring innovation and driving tangible results. Join us at the forefront of educational revolution, where possibilities are limitless and the future is now.</p>
+        </div>
+        <div class="service educational-services">
+            <h2>Educational Services</h2>
+            <p>Embark on a transformative educational journey with SkunkWorks, where innovation meets instruction. Our diverse array of educational services extends far beyond the ordinary, from crafting dynamic curricula to pioneering online course creation. At SkunkWorks, we don't just teach – we inspire. Our team of experts is dedicated to curating immersive, impactful learning experiences that captivate minds and fuel success. Step into a realm where education knows no bounds, and let SkunkWorks be your guide to unlocking the full potential of learning.</p>
+        </div>
+        <div class="service technical-consulting">
+            <h2>Technical Consulting and Implementation</h2>
+            <p>Experience the power of innovation with SkunkWorks' technical consulting services. Our mission? To revolutionize the way organizations operate by implementing cutting-edge solutions that transcend boundaries and elevate efficiency to new heights. Through close collaboration and a deep understanding of your unique challenges, we craft tailor-made strategies that drive real results. Let SkunkWorks be your partner in progress, transforming obstacles into opportunities and paving the way for a brighter, more streamlined future.</p>
+        </div>
+    </div>
+
+    <div class="copyright">
+        &copy; 2024 Skin Works. All Rights Reserved.
+    </div>
+</body>
+</html>
+
+   
+	
+
+            
+
+
+
+
+
